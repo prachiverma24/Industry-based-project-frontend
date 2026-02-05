@@ -1,0 +1,116 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Demo User",
+      "email": "demo@example.com",
+      "password": "password123"
+    },
+    {
+      "id": 1770268124780,
+      "name": "Prachi",
+      "email": "prachi@gmail.com",
+      "password": "prachi123"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Welcome to Community Forum",
+      "content": "This is your first post! Feel free to explore the features of this community forum. You can create new posts, add comments, like posts and comments, and much more. The forum supports nested comments up to 3 levels deep, and has a beautiful dark/light theme toggle.",
+      "authorId": 1,
+      "authorName": "Demo User",
+      "tags": [
+        "welcome",
+        "introduction",
+        "community"
+      ],
+      "likes": 5,
+      "views": 42,
+      "commentsCount": 3,
+      "createdAt": "2026-02-01T10:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "title": "Tips for Getting Started",
+      "content": "Here are some tips to get the most out of this forum: 1) Use tags to organize your posts, 2) Engage with others by commenting and liking their content, 3) Keep discussions respectful and on-topic, 4) Use the search feature to find relevant discussions.",
+      "authorId": 1,
+      "authorName": "Demo User",
+      "tags": [
+        "tips",
+        "guide",
+        "beginners"
+      ],
+      "likes": 22,
+      "views": 90,
+      "commentsCount": 6,
+      "createdAt": "2026-02-02T14:30:00.000Z"
+    },
+    {
+      "title": "hlllo",
+      "content": "hhhiiii",
+      "tags": [
+        "js"
+      ],
+      "authorId": 1770268124780,
+      "authorName": "Prachi",
+      "createdAt": "2026-02-05T05:09:31.276Z",
+      "likes": 11,
+      "views": 1,
+      "commentsCount": 1,
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "postId": 1,
+      "content": "Great to be here! Looking forward to participating in discussions.",
+      "authorId": 1,
+      "authorName": "Demo User",
+      "parentId": null,
+      "likes": 2,
+      "createdAt": "2026-02-01T11:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "postId": 1,
+      "content": "Welcome! This looks like a fantastic community.",
+      "authorId": 1,
+      "authorName": "Demo User",
+      "parentId": null,
+      "likes": 1,
+      "createdAt": "2026-02-01T12:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "postId": 1,
+      "content": "Thanks for the warm welcome!",
+      "authorId": 1,
+      "authorName": "Demo User",
+      "parentId": 2,
+      "likes": 0,
+      "createdAt": "2026-02-01T13:00:00.000Z"
+    },
+    {
+      "postId": "2",
+      "content": "quxwnx",
+      "authorId": 1770268124780,
+      "authorName": "Prachi",
+      "parentId": null,
+      "createdAt": "2026-02-05T05:09:09.120Z",
+      "likes": 3,
+      "id": 4
+    },
+    {
+      "postId": "3",
+      "content": "hllloo",
+      "authorId": 1770268124780,
+      "authorName": "Prachi",
+      "parentId": null,
+      "createdAt": "2026-02-05T05:13:01.746Z",
+      "likes": 0,
+      "id": 5
+    }
+  ]
+}
